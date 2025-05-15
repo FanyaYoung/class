@@ -1,0 +1,161 @@
+Here is the PRD in **Markdown** format:
+
+```markdown
+# 🧾 Product Requirements Document (PRD)
+
+**Product Name**: PersonaSense – Natural Language Sentiment & Insight Engine  
+**Author**: Fanya Young
+**Date**: May 15, 2025  
+**Version**: v1.0
+
+---
+
+## 1. 🎯 Objective
+
+Build an AI-powered tool that accepts **natural language inputs** and returns **persona-based sentiment analysis and insights**, using data pulled from **news**, **social media**, and other **open-source datasets**. The tool should cater to marketers, researchers, product strategists, and PR teams who need to understand how different audience segments feel about a topic, trend, brand, or product in real-time.
+
+---
+
+## 2. 🧑‍💼 Target Users
+
+- **Brand Managers**
+- **UX Researchers & Strategists**
+- **Public Relations & Communications Teams**
+- **Social Media Analysts**
+- **Policy Analysts & Government Affairs Professionals**
+
+---
+
+## 3. 🧩 Key Features
+
+### 3.1 Natural Language Input Interface
+- Accepts full-sentence queries like:
+  - “What do Gen Z women think about electric vehicles?”
+  - “How do tech professionals feel about remote work in 2025?”
+- Supports follow-up questions and conversational history.
+
+### 3.2 Persona-Based Filtering
+- Pre-defined personas (e.g., “Millennial parents,” “Urban Gen Z,” “C-suite Executives”).
+- Custom persona creation using filters such as:
+  - Demographics (age, gender, income)
+  - Psychographics (interests, behaviors)
+  - Region & locale
+
+### 3.3 Multisource Data Aggregation
+- Aggregates and indexes from:
+  - Social media platforms (Twitter/X, Reddit, LinkedIn, TikTok*)
+  - News (major outlets and niche publications)
+  - Public forums and blogs
+  - Government open data (Census, BLS, etc.)
+  - Consumer review sites (Trustpilot, Yelp, etc.)
+  - RSS & customizable endpoints
+
+### 3.4 Sentiment Analysis Engine
+- Emotion detection (e.g., joy, anger, fear, trust)
+- Polarity detection (positive, neutral, negative)
+- Tone and context understanding via NLP
+
+### 3.5 Insight Generation
+- Summary view with:
+  - Top keywords, trending sentiments, and opinion clusters
+  - Quote snippets & media embeds
+- Visualizations:
+  - Sentiment over time
+  - Geographic distribution
+  - Persona-level comparison charts
+
+### 3.6 Alerts & Notifications
+- Custom alerts for shifts in sentiment
+- Weekly summaries by persona/topic
+
+### 3.7 Export & Integration
+- Downloadable reports (PDF, CSV)
+- API access for integration into BI tools
+- Slack, Teams, or Email digest delivery    
+
+---
+
+## 4. ⚙️ Technical Requirements
+
+### 4.1 NLP Engine
+- Use transformer-based models (e.g., BERT, GPT) fine-tuned for sentiment and emotion classification.
+- Support for semantic search and topic modeling.
+
+### 4.2 Data Pipeline
+- Web scraping, API integrations, and RSS feeds
+- Stream and batch processing
+- Deduplication and relevance scoring
+
+### 4.3 Persona Engine
+- Schema for persona profiles
+- Matching algorithm for tagging sentiment by persona metadata
+
+### 4.4 Architecture
+- Microservices-based backend
+- Frontend: React or Vue with conversational UI
+- Data storage: ElasticSearch (indexing), PostgreSQL (relational data), and object storage for logs and media
+
+---
+
+## 5. ✅ Success Metrics
+
+- 90%+ precision on sentiment labeling (validated against benchmark datasets)
+- Query response time < 5 seconds
+- User satisfaction score ≥ 4.5/5 in UX survey
+- Daily active usage growth of 15% MoM
+- ≥ 85% retention rate after 30 days
+
+---
+
+## 6. 📅 Timeline (MVP)
+
+| Phase              | Milestone                             | Duration |
+|-------------------|----------------------------------------|----------|
+| Phase 1           | Requirements & Design                  | 2 weeks  |
+| Phase 2           | NLP & Data Pipeline Setup              | 4 weeks  |
+| Phase 3           | Persona Engine + Data Aggregation      | 4 weeks  |
+| Phase 4           | UI Development (Frontend)              | 3 weeks  |
+| Phase 5           | Testing & Refinement                   | 2 weeks  |
+| Phase 6           | Beta Release                           | 1 week   |
+
+---
+
+## 7. 🚫 Constraints & Considerations
+
+- Social media platform API limitations (e.g., rate limits, access restrictions)
+- Bias in sentiment datasets or language models
+- Persona assumptions may oversimplify nuanced behavior
+- Real-time data freshness vs. accuracy tradeoffs
+
+---
+
+## 8. 📌 Open Questions
+
+- Should personas adapt dynamically based on trending traits?
+- Should we include audio/video content sentiment (e.g., YouTube comments or voice)?
+- Will enterprise clients want on-premises options for compliance?
+
+---
+
+## 9. 🙋 User Stories
+
+### User Story 1 – Marketing Analyst
+> As a **marketing analyst**, I want to know what **Gen Z in California** think about our **eco-friendly packaging**, so that I can shape our brand messaging.
+
+### User Story 2 – Policy Researcher
+> As a **policy analyst**, I want to know how **voters over 65** feel about **telehealth laws**, so I can guide legislative recommendations.
+
+### User Story 3 – UX Research Lead
+> As a **UX researcher**, I want to identify what **first-time users** dislike about AI chatbot experiences, so I can improve onboarding.
+
+---
+
+## 10. 📎 Appendices
+
+- **Data Privacy Guidelines**
+- **List of Initial Supported Sources**
+- **Sample Sentiment Outputs**
+- **Persona Framework Examples**
+```
+
+Would you like this exported as a `.md` file or turned into a formatted presentation deck as well?
